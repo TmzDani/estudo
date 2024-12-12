@@ -1,0 +1,36 @@
+Diferenca de modulo, pacote e outras coisas
+Modulos: servem para melhorar a qualidade do codigo
+da pra instalar novos pacotes, porem, o python ja tem alguns pacotes ja incrementados
+considerando que temos 3 bibliotecas com doces, bebidas e comidas
+a algum momento vamos "querer"algumas dessas coisas, assim como em programacao, podemos pegar algumas coisas a mais 
+para funcionar no nosso codigo, e ai vem a ideia
+
+import bebida - vai pegar todas as bebidas que tiverem na biblioteca bebida
+                                    e
+from import doce (o doce de sua escolha) - vai pegar apenas aquele doce que vc escolheu
+
+from import sqrt,ceil (importa 2 funcoes, - se quiser só adicionar mais uma virgula)
+
+import math
+funcoes:
+math.ceil() - vai elevar o numero para cima 
+math.floor() - vai elevar o numero para baixo
+math.trunc() - vai truncar o numero (vai eleminar os numeros depois da virgula)
+math.pow() - power, funciona da mesma maneira que os dois **
+math.sqrt() - vai efetuar as raizes
+math.factorial() - calcular o fatorial de um numero
+
+Biblioteca Random
+import random 
+para conseguir um valor aleatorio: 
+num = random.random()
+print(num) - aqui vai aparecer um numero aleatorio de 0 e 1, se quiser de valor inteiro digite:
+
+num = random.randint(1,10)
+print(num) - vai aparecer um numero entre 1 e 10
+
+import emoji
+pode importar emojis :D
+emoji.emojize('Ola mundo, (codigo do emoji))
+nao esqueca de colocar use_aliases=True
+no final do emoji claro dps da virgula

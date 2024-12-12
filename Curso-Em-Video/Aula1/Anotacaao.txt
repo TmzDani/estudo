@@ -1,0 +1,2 @@
+Toda variavel em python é um objeto(caralho)
+criar interatividade com o usuario: input(foda)

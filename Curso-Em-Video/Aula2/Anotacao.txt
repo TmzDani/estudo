@@ -1,0 +1,3 @@
+para checar o tipo de alguma variavel, usamos
+o type()
+exemplo: print(type(variavel))

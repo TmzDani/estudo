@@ -1,0 +1,31 @@
+tudo entre parenteses sera executado primeiro
+no .format, podemos fazer as alteracoes que quisermos
+por exemplo
+imprimir o nome Gustavo
+nome='Gustavo'
+print('Ola, meu noem é {}'.format(nome)))
+
+dentro das chaves, podemos colocar inumeras operacoes, tais como mandar ele escrever em 20 caracteres por exemplo
+print('Ola, meu nome é {:20}'.format(nome))
+
+alinhado a direita
+print('Ola, meu nome é {:>20}'.format(nome))
+
+alinhado a esquerda
+print('Ola, meu nome é {:<20}'.format(nome))
+
+centralizado
+print('Ola, meu nome é {:^20}'.format(nome))
+
+Ainda no centralizado, podemos adicionar o operador =, que vai substituir os espacos vazios para este operador
+print('Ola, meu nome é {:=^20}'.format(nome))
+
+Se quiser guardar alguma variavel, faca uma variavel, se nao precisar, nao faca
+(libera mais esapco ;D)
+
+para nao dar quebra de linha
+usamos o end='' 
+pode adicionar um espaco
+end=' '
+
+quebra de linha é \n
